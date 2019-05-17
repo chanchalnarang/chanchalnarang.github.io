@@ -11,20 +11,26 @@
         <div>
             <h2>Flight Booking</h2>
             <form>
-               <label>First name:</label>
-                <input type="text" name="firstname" >
-                <br>
-                <label>Last name:</label>
-                <input type="text" name="lastname">
-                <br><br>
-                <label>Email:</label>
-                <input type="email" name="Email" ><br><br>
-                <label>Departure date:</label>
-                <input type="Date" name="DepartureDate"><br><br>
-                <label>Arrival Date</label>
-                <input type="Date" name="ArrivalDate" ><br><br>
-              
-                <input type="submit" value="Submit">
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group">
+                  <label for="pwd">Password:</label>
+                  <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                </div>
+                <div class="form-group">
+                        <label for="Departure Date">Departure Date:</label>
+                        <input type="Date" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                </div>
+                <div class="form-group">
+                        <label for="Arrival Date">Arrival Date:</label>
+                        <input type="Date" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox" name="remember"> Remember me</label>
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
               </form>
           </div>
     </body>

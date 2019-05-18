@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <HTML>
 <head>
-    <title>fACEBOOK SIGNUP FORM</title>
+    <title>fACEBOOK SIGNIN FORM</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="fb.js"></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fb.css">
+   
 </head>
 <body>
         <div class="container">
-                <h2>SIGN IN form</h2>
+          <div class="jumbotron">
+            <h1>Dummy fACEBOOK</h1>
+          </div>
+          
+          <h2>SIGN IN form</h2>
                 <form >
                   <div class="form-group">
                     <label for="email">username:</label>
@@ -22,10 +25,19 @@
                   <div class="checkbox">
                     <label><input type="checkbox" name="remember"> Remember me</label>
                   </div>
-                  <button type="submit" onclick=signIn() class="btn btn-default">Submit</button>
+                  <button type="button" onclick="signIn()" class="btn btn-primary">Submit</button>
                 </form>
-              </div>  
-             <div id="messages"></div>
+                <div class="jumbotron">
+                  <h1>Timeline</h1>
+                </div> 
+
+                <div id="messages"></div>
+              </div> 
+              
+            
+             <script src="fb.js"></script>
+             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </body>
 
 </HTML>

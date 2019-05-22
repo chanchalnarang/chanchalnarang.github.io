@@ -1,18 +1,13 @@
-var input1=document.getElementById("color1");
-var input2=document.getElementById("color2");
-var body=document.getElementById("grad1");
+var input1=document.querySelector("#color1");
+var input2=document.querySelector("#color2");
+var body=document.querySelector("#grad1");
 var h3=document.querySelector("h3");
-input1.addEventListener("input",function(){
 
-    
-body.style.background="linear-gradient(to right,"+input1.value+","+input2.value+")";
+function setGradient(){
+    body.style.background="linear-gradient(to right,"
+    +input1.value+","+input2.value+")";
+h3.textContent=body.style.background  + ";"
+}
 
 
-});
-input2.addEventListener("input",function(){
-    body.style.background="linear-gradient(to right,"+input1.value+","+input2.value+")";
 
-    
-    });
-
-body.style

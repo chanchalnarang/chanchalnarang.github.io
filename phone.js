@@ -1,5 +1,5 @@
-var bankBalance=303.91;
-const spendingThreshold=200;
+var bankBalance=prompt("what is your bank balance");
+const spendingThreshold=prompt("what is your spending threshhold");
 const TaxRate=0.08;
 const phoneprice=99.99;
 const accessoryPrice=9.99;

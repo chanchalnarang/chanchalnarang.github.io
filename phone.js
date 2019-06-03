@@ -36,11 +36,16 @@ var totalPurchase= totalPurchaseCalculated(NoOfPhones,NoofAccessory);
 console.log("totalPurchase while"+totalPurchase);
 }
 
+var a=document.querySelector('#TotalPhone');
+a.textContent="Total Phones :"+ NoOfPhones;
 
+var b=document.querySelector('#TotalAccessory');
+b.textContent="Total Accessories :"+ NoofAccessory;
 
-console.log("NoOfPhones"+NoOfPhones);
-console.log("NoofAccessory"+NoofAccessory);
-console.log("totalPurchase"+totalPurchase);
+var c=document.querySelector('#Totalpurchase');
+c.textContent="Total Purchase :"+ totalPurchase.toFixed(2);
+var d=document.querySelector('#BankBalance');
+d.textContent="Bank balance :"+ bankBalance.toFixed(2);
 
 
 

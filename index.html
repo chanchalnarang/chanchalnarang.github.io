@@ -8,6 +8,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </head>
     <body>
+      <button class="bg">Background color changer</button>
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
               <h1 class="display-4">PortFolio</h1>
@@ -62,6 +63,19 @@
 
           </div>
          
-        
+     <script>
+     var btn=document.querySelector('.bg');
+     btn.addEventListener('click',function(){
+      console.log("color");
+      let mycolor="rgb("+random(255)+","+random(255)+","+random(255)+")";
+      console.log(mycolor);
+      document.body.style.backgroundColor=mycolor;
+     });
+     
+     function random(num)
+    {
+return Math.floor(Math.random() *(num+1));
+    } 
+     </script>   
     </body>
 </html>

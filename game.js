@@ -45,6 +45,8 @@ function reset() {
   document.getElementsByClassName("player2Value")[0].innerHTML = "";
   document.getElementsByClassName("finalresult")[0].innerHTML =
     "Game is about to begin";
+  document.getElementsByClassName("player1Score")[0].innerHTML = 0;
+  document.getElementsByClassName("player2Score")[0].innerHTML = 0;
 }
 function play() {
   player1 = Math.floor(Math.random() * 3);

@@ -40,6 +40,25 @@ function finalResult(player1Score, player2Score) {
     return "draw";
   }
 }
+function reset(){
+  player1Value="click on play";
+  player2Value="click on play";
+  finalResultScore="game about to begin";
+  finalplayer1Score=0;
+  finalplayer2Score=0;
+  document.getElementsByClassName("player1Value")[0].innerHTML = player1Value;
+  document.getElementsByClassName("player2Value")[0].innerHTML = player2Value;
+  document.getElementsByClassName(
+    "finalresult"
+  )[0].innerHTML = finalResultScore;
+  document.getElementsByClassName(
+    "player1Score"
+  )[0].innerHTML = finalplayer1Score;
+  document.getElementsByClassName(
+    "player2Score"
+  )[0].innerHTML = finalplayer2Score;
+}
+}
 function play() {
   player1 = Math.floor(Math.random() * 3);
   player1Value = game[player1];

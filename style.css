@@ -32,3 +32,28 @@ img {
   border: 2px solid black;
   color: white;
 }
+/* card styles */
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 13px;
+  background-color: white;
+  width: 18%;
+  padding-left: 20px;
+  display: inline-block;
+}
+.logo {
+  width: 50%;
+  height: 100px;
+  align-content: center;
+}
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
+}

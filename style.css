@@ -2,7 +2,7 @@ body {
   background-color: bisque;
 }
 header {
-  background-color: blue;
+  background-color: darkblue;
   height: 133px;
   width: 100%;
 }
@@ -17,18 +17,18 @@ img {
 }
 .heading {
   margin-top: 20px;
-  background-color: blue;
+  background-color: darkblue;
   border: 2px solid black;
   color: white;
   width: 55%;
 }
 #Experience {
-  background-color: blue;
+  background-color: darkblue;
   border: 2px solid black;
   color: white;
 }
 #Experience {
-  background-color: blue;
+  background-color: darkblue;
   border: 2px solid black;
   color: white;
 }
